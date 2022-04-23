@@ -24,7 +24,7 @@ header h1 {
 	border-radius: 1rem;
 	margin-right: 5rem;
     margin-left: 5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
 }
 
 .generator-box h1 {
@@ -57,13 +57,58 @@ header h1 {
     text-decoration: none;
  }
 
-
-
-
 .app {
     background-color: rgb(139, 104, 79);
     border-radius: 1rem;
 	margin-right: 8rem;
     margin-left: 8rem;
     margin: 1rem;
+}
+
+
+.checkboxes {
+    padding-top: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.checkmark {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    border-radius: 1rem;
+}
+
+.cb {
+    padding-top: 2rem;
+}
+
+.slidercontainer {
+    width: 80%;
+}
+
+.slider {
+    appearance: none;
+    background: aqua;
+    outline-style: none;
+    border-radius: 1rem;
+}
+
+.slider:hover {
+    background: #1bffff;
+    box-shadow: black;
+    box-shadow: inset;
+}
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 24px;
+    width: 23px;
+    background: rgb(59, 59, 59);
+    border-radius: 1rem;
 }
