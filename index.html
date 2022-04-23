@@ -15,7 +15,25 @@
         <div class="generator-box">
             <h1 id="password-el">Password</h1>
             <button class="buttons" id="generate-btn">Generate</button>
-            
+            <div class="cb">
+                <label class="checkboxes">
+                    <input type="checkbox" id="Symbols" class="Symbols">
+                    <span class="checkmark">Include Symbols</span>
+                </label>
+                <label class="checkboxes">
+                    <input type="checkbox" id="Numbers" class="Numbers">
+                    <span class="checkmark">Include Numbers</span> 
+                </label>
+                <br>
+                <br>
+                <h2>Password Length:</h2>
+                <br>
+                <div class="slidecontainer">
+                    <input type="range" min="4" max="15" value="8" class="slider" id="PasswordRange">
+                </div>
+                <br>
+                <h2 id="passwordLength"></h2>
+            </div>
         </div>
     <script src="script.js"></script>
 </body>
